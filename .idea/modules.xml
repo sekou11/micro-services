@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Mmcommerce.iml" filepath="$PROJECT_DIR$/.idea/Mmcommerce.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ms-commandes/ms-commandes.iml" filepath="$PROJECT_DIR$/ms-commandes/ms-commandes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ms-paiements/ms-paiements.iml" filepath="$PROJECT_DIR$/ms-paiements/ms-paiements.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ms-produits/ms-produits.iml" filepath="$PROJECT_DIR$/ms-produits/ms-produits.iml" />
+    </modules>
+  </component>
+</project>
