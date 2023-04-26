@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -12,9 +13,16 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="ms-commandes" target="1.5" />
-      <module name="ms-paiements" target="1.5" />
-      <module name="ms-produits" target="1.5" />
+      <module name="ms-commandes" target="17" />
+      <module name="ms-paiements" target="17" />
+      <module name="ms-produits" target="17" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ms-commandes" options="-parameters" />
+      <module name="ms-paiements" options="-parameters" />
+      <module name="ms-produits" options="-parameters" />
+    </option>
   </component>
 </project>
